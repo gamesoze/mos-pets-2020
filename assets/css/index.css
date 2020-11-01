@@ -1,0 +1,24 @@
+body {
+    background-color: #3a4147;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #f1c40f;
+    background-color: #3A4147;
+    color: #f1c40f;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: #f1c40f 0 0 0 0;
+    transition: 0.1s box-shadow, color;
+}
+
+a:hover {
+    margin: 11px;
+    border: 1px solid #f1c40f;
+    box-shadow: 0 0 20px 0 #f1c40f;
+    color: white;
+}
